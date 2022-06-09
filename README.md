@@ -1,6 +1,6 @@
 # heart-failure-prediction
 
-Trong project này, tôi sử dụng Random Forest và Logistic Regression để dự đoán những người có nguy cơ suy tim.
+Trong project này, tôi sử dụng Random Forest và Logistic Regression để dự đoán người có nguy cơ suy tim.
 
 ## Thông tin dataset
 
