@@ -2,8 +2,6 @@
 
 Trong project này, tôi sử dụng Random Forest và Logistic Regression để dự đoán những người có nguy cơ suy tim.
 
----
-
 ## Thông tin dataset
 
 [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) là bộ dữ liệu được khảo sát trên 918 người khác nhau. Với mục tiêu là dựa vào dữ liệu của những người này để dự đoán họ có bị suy tim hay không. Bộ dữ liệu gồm 11 biến đầu vào như sau:
