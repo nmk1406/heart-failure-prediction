@@ -1,21 +1,21 @@
 # Heart Failure Prediction
 
-Trong project này, tôi sử dụng Random Forest và Logistic Regression để dự đoán người có nguy cơ suy tim.
+In this project, I have used Random Forest and Logistic Regression to predict who is at risk of heart failure.
 
-## Thông tin dataset
+## Detail of dataset
 
-[Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) là bộ dữ liệu được khảo sát trên 918 người khác nhau. Với mục tiêu là dựa vào dữ liệu của những người này để dự đoán họ có bị suy tim hay không. Bộ dữ liệu gồm 11 biến đầu vào như sau:
+[Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes
 
-- Age: tuổi của bệnh nhân.
-- Sex: giới tính của bệnh nhân.
-- ChestPainType: kiểu đau ngực.
-- RestingBP: huyết áp (mm/Hg).
-- Cholesterol: nồng độ cholesterol (mm/dl).
-- FastingBS: lượng đường trong máu (mg/dl).
-- RestingECG: kết quả điện tâm đồ lúc nghỉ.
-- MaxHR: nhịp tim tối đa đạt được.
-- ExerciseAngina: đau thắt ngực do tập thể dục.
-- Oldpeak: đoạn ST trong kết quả điện tâm đồ.
-- ST_Slope: độ dốc đoạn ST khi tập thể dục.
+- Age: age of the patient
+- Sex: sex of the patient
+- ChestPainType: chest pain type
+- RestingBP: resting blood pressure
+- Cholesterol: serum cholesterol
+- FastingBS: fasting blood sugar
+- RestingECG: resting electrocardiogram results
+- MaxHR: maximum heart rate achieved
+- ExerciseAngina: exercise-induced angina
+- Oldpeak: oldpeak = ST
+- ST_Slope: the slope of the peak exercise ST segment
 
-Biến mục tiêu là HeartDisease với 0 (bình thường) và 1 (suy tim). Bình thường là negative class và suy tim là positive class.
+Target variable is HeartDisease with 0 (normal) and 1 (heart failure). Normal is a negative class and heart failure is a positive class.
